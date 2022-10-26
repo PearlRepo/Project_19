@@ -184,7 +184,7 @@ function draw() {
     fill("red");
     textFont("Courier New");
 
-    if (level==3) {
+    if (level==5) {
         gameState=WIN;
         station.visible= true;
         playSound.play();
