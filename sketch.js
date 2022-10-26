@@ -165,7 +165,7 @@ function draw() {
     }
    
     
-    if(score>0 && score%500 === 0){
+    if(score>0 && score%1000 === 0){
        
        levelUpSound.play();
        level= level+1;
