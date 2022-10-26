@@ -165,7 +165,7 @@ function draw() {
     }
    
     
-    if(score>0 && score%1000 === 0){
+    if(score>0 && score%1500 === 0){
        
        levelUpSound.play();
        level= level+1;
@@ -184,7 +184,7 @@ function draw() {
     fill("red");
     textFont("Courier New");
 
-    if (level==5) {
+    if (level==3) {
         gameState=WIN;
         station.visible= true;
         playSound.play();
